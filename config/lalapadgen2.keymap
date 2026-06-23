@@ -132,15 +132,15 @@
         };
 
         SYSTEM_LAYER {
-            display-name = "system_layer";
+            display-name = "system-util";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans                         &trans                         &trans                         &trans                         &trans
-&bt BT_CLR    &bt BT_CLR_ALL  &trans        &bootloader   &sys_reset                    &trans                         &trans                         &trans                         &trans                         &trans
-&zip_dyn_scale ZDS_XY ZDS_INC        &zip_dyn_scale ZDS_XY ZDS_DEC          &zip_dyn_scale ZDS_SC ZDS_INC        &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST                        &trans                         &trans                         &trans                         &trans                         &trans
-&out OUT_TOG  &trans          &trans        &trans        &trans        &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
-              &trans          &trans        &trans        &trans        &trans  &trans  &trans                         &trans                         &trans                         &trans
-&trans        &trans          &trans                                                                                                                  &trans                         &trans                         &trans
-&trans        &trans          &trans        &trans        &trans                        &trans                         &trans                         &trans                         &trans                         &trans
+&bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3                   &bt BT_SEL 4                                    &trans  &kp RA(RG(LEFT_ARROW))  &trans              &kp RA(RG(RIGHT_ARROW))  &trans
+&bt BT_CLR                     &bt BT_CLR_ALL                 &trans                         &bootloader                    &sys_reset                                      &trans  &kp RG(LEFT_ARROW)      &kp RC(UP_ARROW)    &kp RG(RIGHT_ARROW)      &trans
+&zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST                  &trans  &kp RC(LEFT_ARROW)      &kp RC(DOWN_ARROW)  &kp RC(RIGHT_ARROW)      &trans
+&out OUT_TOG                   &trans                         &trans                         &trans                         &trans                          &trans  &trans  &trans  &trans                  &trans              &trans                   &trans
+                               &trans                         &trans                         &trans                         &trans                          &trans  &trans  &trans  &trans                  &trans              &trans
+&trans                         &trans                         &trans                                                                                                                                        &trans              &trans                   &trans
+&trans                         &trans                         &trans                         &trans                         &trans                                          &trans  &trans                  &trans              &trans                   &trans
             >;
         };
     };
