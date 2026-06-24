@@ -48,14 +48,44 @@
     combos {
         compatible = "zmk,combos";
 
-        CONBO_ESC {
+        escape {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
 
-        COMBO_TAB {
+        tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
+        };
+
+        shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <11 12>;
+        };
+
+        double_quatation {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <29 28>;
+        };
+
+        single_quatation {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <28 27>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <27 26>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <25 26>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <15 16>;
         };
     };
 
