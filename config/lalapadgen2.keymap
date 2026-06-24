@@ -135,7 +135,7 @@
             display-name = "system-util";
             bindings = <
 &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3                   &trans                                          &trans  &trans              &trans              &trans               &trans
-&bt BT_CLR                     &bt BT_CLR_ALL                 &trans                         &bootloader                    &sys_reset                                      &trans  &trans              &kp LC(UP_ARROW)    &trans               &trans
+&bt BT_CLR                     &bt BT_CLR_ALL                 &trans                         &bootloader                    &sys_reset                                      &trans  &kp LG(LEFT_ARROW)  &kp LC(UP_ARROW)    &kp LG(RIGHT_ARROW)  &trans
 &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST                  &trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
 &out OUT_TOG                   &trans                         &trans                         &trans                         &trans                          &trans  &trans  &trans  &trans              &trans              &trans               &trans
                                &trans                         &trans                         &trans                         &trans                          &trans  &trans  &trans  &trans              &trans              &trans
