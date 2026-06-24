@@ -101,7 +101,7 @@
 &kp LCTRL           &kp LEFT_ALT         &kp LEFT_COMMAND  &kp LEFT_SHIFT      &lt 1 SPACE       &kp LEFT_COMMAND  &mt RIGHT_COMMAND BACKSPACE  &lt 1 ENTER         &mo 3                &kp RIGHT_COMMAND  &kp RIGHT_CONTROL   &kp RSHIFT
                     &none                &kp RIGHT         &kp DOWN            &kp LEFT          &kp UP            &kp UP                       &kp LEFT            &kp DOWN             &kp RIGHT          &none
 &mkp LCLK           &mkp RCLK            &mkp MCLK                                                                                                                                       &mkp LCLK          &mkp RCLK           &mkp MCLK
-&kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LEFT_CONTROL                                                 &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(UP_ARROW)   &kp LC(DOWN_ARROW)  &kp LCTRL
+&kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LEFT_CONTROL                                                 &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)   &kp LC(DOWN_ARROW)  &kp LCTRL
             >;
         };
 
