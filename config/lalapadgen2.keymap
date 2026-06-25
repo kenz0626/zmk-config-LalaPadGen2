@@ -72,27 +72,27 @@
 
         double_quatation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <29 28>;
+            key-positions = <18 19 18>;
         };
 
         single_quatation {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <28 27>;
+            key-positions = <17 18>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <27 26>;
+            key-positions = <16 17>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <25 26>;
+            key-positions = <15 16>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <15 16>;
+            key-positions = <25 26>;
         };
     };
 
