@@ -72,7 +72,7 @@
 
         double_quatation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <18 18 19>;
+            key-positions = <18 19>;
         };
 
         single_quatation {
